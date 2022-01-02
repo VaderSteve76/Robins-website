@@ -1,6 +1,21 @@
 import styled from 'styled-components';
 import logo from '../../Img/IMG_0057.jpeg';
 
+export const NAV = styled.div`
+  margin-top: 20px;
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  /* display: flex;
+  justify-content: space-between; */
+`;
+
+export const DIV = styled.div`
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+`;
+
 export const IMG = styled.div`
   height: 325px;
   max-width: 90%;
