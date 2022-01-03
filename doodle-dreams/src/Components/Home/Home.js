@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import * as S from './HeaderStyles';
+import * as S from './HomeStyles';
 
-export default class MainHeader extends Component {
+export default class HomePage extends Component {
   render() {
     return (
       <div>
@@ -9,9 +9,11 @@ export default class MainHeader extends Component {
         <S.NAV>
           <S.DIV>
             <a href=''>Home</a>
+            <a href=''>Contact Us</a>
             <a href=''>About Us</a>
             <a href=''>Before You Visit</a>
             <a href=''>FAQ</a>
+            <a href=''>Parents</a>
             <a href=''>Available Puppies</a>
           </S.DIV>
           <S.DIV>
@@ -21,7 +23,6 @@ export default class MainHeader extends Component {
             <a href=''>Deposit/Delivery</a>
             <a href=''>Supply List/Product Links</a>
           </S.DIV>
-          
         </S.NAV>
       </div>
     )
