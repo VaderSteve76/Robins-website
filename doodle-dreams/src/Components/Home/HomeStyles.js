@@ -15,7 +15,7 @@ export const DIV = styled.div`
 `;
 
 export const IMG = styled.div`
-  height: 400px;
+  height: 385px;
   max-width: 90%;
   box-shadow: 0px 8px 8px 0px black;
   border-radius: 5px;
@@ -25,15 +25,15 @@ export const IMG = styled.div`
   background-size: 100%;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25px;
+  margin: 0px auto 45px auto;
 `;
 
 export const SwipeDiv = styled.div`
-  height: 400px;
+  height: 450px;
   max-width: 90%;
   box-shadow: 0px 8px 8px 0px black;
   border-radius: 5px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 25px;
+  margin-top: 45px;
 `;
