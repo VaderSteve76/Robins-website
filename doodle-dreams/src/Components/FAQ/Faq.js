@@ -1,31 +1,32 @@
 import React, { Component } from 'react';
 import Faq from "react-faq-component";
+import * as S from './FaqStyles';
 import data from './Data';
+
+
+const styles = {
+  bgColor: "#A7DBD8",
+  rowTitleTextSize: "20px",
+  rowContentColor: "#48484a",
+  rowContentTextSize: "16px",
+  rowContentPaddingTop: "10px",
+  rowContentPaddingBottom: "10px",
+  rowContentPaddingLeft: "50px",
+  rowContentPaddingRight: "50px",
+  transitionDuration: ".8s",
+  timingFunc: "linear"
+}
 
 export default class FAQ extends Component {
   render() {
     return (
-      <div>
+      <S.FAQ>
         <Faq
           data={data}
-          styles={{
-            bgColor: "white",
-            titleTextColor: "#48482a",
-            rowTitleColor: "#78789a",
-            rowTitleTextSize: "large",
-            rowContentColor: "#48484a",
-            rowContentTextSize: "16px",
-            rowContentPaddingTop: "10px",
-            rowContentPaddingBottom: "10px",
-            rowContentPaddingLeft: "50px",
-            rowContentPaddingRight: "150px",
-            arrowColor: "red"
-          }}
-          config={{
-            animate: true
-          }}
+          styles={styles}
+          config={{animate: true, tabFocus: true}}
         />
-      </div>
+      </S.FAQ>
     )
   }
 }
