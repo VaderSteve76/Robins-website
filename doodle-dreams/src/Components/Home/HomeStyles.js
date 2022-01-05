@@ -15,16 +15,14 @@ export const DIV = styled.div`
 `;
 
 export const IMG = styled.div`
-  height: 385px;
+  height: 275px;
   max-width: 90%;
   box-shadow: 0px 8px 8px 0px black;
   border-radius: 5px;
   background-image: url(${logo});
-  background-position: cover; 
+  background-position: center; 
   background-repeat: no-repeat; 
   background-size: 100%;
-  margin-left: auto;
-  margin-right: auto;
   margin: 0px auto 45px auto;
 `;
 
