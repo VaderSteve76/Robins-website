@@ -15,11 +15,11 @@ export default class HomePage extends Component {
         <S.IMG></S.IMG>
         <S.NAV>
           <S.DIV>
-            <a href=''>Home</a>
+            <a href='/home'>Home</a>
             <a href=''>Contact Us</a>
             <a href=''>About Us</a>
             <a href=''>Before You Visit</a>
-            <a href=''>FAQ</a>
+            <a href='/faq'>FAQ</a>
             <a href=''>Parents</a>
             <a href=''>Available Puppies</a>
           </S.DIV>
