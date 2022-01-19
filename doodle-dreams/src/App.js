@@ -6,16 +6,18 @@ import './styles.css';
 
 function App() {
   return (
-    <Router>
-      <nav>
-        <Link to="/">Home</Link> 
-        <Link to="/FAQ">FAQ</Link>
-      </nav>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/FAQ" element={<FAQ />} />
-      </Routes>
-    </Router>
+    <div className="App">
+      <Router>
+        <nav>
+          <Link to="/">Home</Link> 
+          <Link to="/FAQ">FAQ</Link>
+        </nav>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/FAQ" element={<FAQ />} />
+        </Routes>
+      </Router>
+    </div>
   );
 }
 
