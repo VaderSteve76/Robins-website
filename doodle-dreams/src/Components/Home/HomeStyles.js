@@ -15,7 +15,7 @@ export const DIV = styled.div`
 `;
 
 export const IMG = styled.div`
-  height: 275px;
+  height: 350px;
   max-width: 90%;
   box-shadow: 0px 8px 8px 0px black;
   border-radius: 5px;
