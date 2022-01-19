@@ -1,12 +1,12 @@
 import styled from 'styled-components';
 import logo from '../../Img/IMG_0057.jpeg';
 
-export const NAV = styled.div`
-  margin-top: 30px;
-  max-width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-`;
+// export const NAV = styled.div`
+//   margin-top: 30px;
+//   max-width: 90%;
+//   margin-left: auto;
+//   margin-right: auto;
+// `;
 
 export const DIV = styled.div`
   display: flex;
@@ -23,7 +23,7 @@ export const IMG = styled.div`
   background-position: center; 
   background-repeat: no-repeat; 
   background-size: 100%;
-  margin: 0px auto 45px auto;
+  margin: 15px auto 45px auto;
 `;
 
 export const SwipeDiv = styled.div`

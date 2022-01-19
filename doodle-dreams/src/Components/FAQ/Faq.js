@@ -13,7 +13,7 @@ const styles = {
   rowContentPaddingBottom: "10px",
   rowContentPaddingLeft: "50px",
   rowContentPaddingRight: "50px",
-  transitionDuration: ".8s",
+  transitionDuration: ".6s",
   timingFunc: "linear"
 }
 

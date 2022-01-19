@@ -8,10 +8,13 @@ function App() {
   return (
     <div className="App">
       <Router>
-        <nav>
-          <Link to="/">Home</Link> 
-          <Link to="/FAQ">FAQ</Link>
-        </nav>
+        <div className="nav">
+          <nav>
+            <Link to="/">Home</Link> 
+            <Link to="/FAQ">FAQ</Link>
+            <Link to="/Gallery">Gallery</Link>
+          </nav>
+        </div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/FAQ" element={<FAQ />} />
