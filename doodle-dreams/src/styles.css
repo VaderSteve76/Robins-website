@@ -21,6 +21,10 @@
   justify-content: space-around;
 }
 
+.nav .link {
+  text-decoration: none;
+}
+
 .image {
   width: 100%;
   height: 100%;
