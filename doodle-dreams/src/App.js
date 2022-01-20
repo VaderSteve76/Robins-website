@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Home from './Components/Home/Home';
 import FAQ from './Components/FAQ/Faq';
+import Gallery from './Components/Gallery/Gallery';
 import './styles.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/FAQ" element={<FAQ />} />
+          <Route path="/Gallery" element={<Gallery />} />
         </Routes>
       </Router>
     </div>
