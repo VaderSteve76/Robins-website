@@ -12,25 +12,16 @@ export default class HomePage extends Component {
   render() {
     return (
       <div>
-        <S.IMG></S.IMG>
-          {/* <S.NAV>
-            <S.DIV>
-              <a href='/home'>Home</a>
-              <a href=''>Contact Us</a>
-              <a href=''>About Us</a>
-              <a href=''>Before You Visit</a>
-              <a href='/faq'>FAQ</a>
-              <a href=''>Parents</a>
-              <a href=''>Available Puppies</a>
-            </S.DIV>
-            <S.DIV>
-              <a href=''>Training/Grooming</a>
-              <a href=''>Health Guarantee</a>
-              <a href=''>Early Neuro Stimulation</a>
-              <a href=''>Deposit/Delivery</a>
-              <a href=''>Supply List/Product Links</a>
-            </S.DIV>
-          </S.NAV> */}
+        <div className="container">
+          <S.IMG></S.IMG>
+          <div className="overlay">
+            <div className="text">
+              <h1>Robin Crubaugh</h1>
+              <p>59 Deerwood Trail Road Blairsville,GA 30512</p>
+              <p>1(706)994-1678</p>
+            </div>
+          </div>
+        </div>
         <S.SwipeDiv>
           <Swiper navigation={true} className="mySwiper">
             <SwiperSlide>
