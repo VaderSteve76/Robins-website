@@ -17,8 +17,8 @@ export default class HomePage extends Component {
           <div className="overlay">
             <div className="text">
               <h1>Robin Crubaugh</h1>
-              <p>59 Deerwood Trail Road Blairsville,GA 30512</p>
-              <p>1(706)994-1678</p>
+              <h3>59 Deerwood Trail Road Blairsville,GA 30512</h3>
+              <h3>1(706)994-1678</h3>
             </div>
           </div>
         </div>

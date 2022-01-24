@@ -4,6 +4,7 @@ import Home from './Components/Home/Home';
 import FAQ from './Components/FAQ/Faq';
 import Gallery from './Components/Gallery/Gallery';
 import Visit from './Components/Visit/Visit';
+import EarlyStim from './Components/EarlyStim/EarlyStim';
 import './styles.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <nav>
             <Link className="link" to="/">Home</Link> 
             <Link className="link" to="/FAQ">FAQ</Link>
+            <Link className="link" to="/EarlyStim">Early Stimulation</Link>
             <Link className="link" to="/Visit">Before You Visit</Link>
             <Link className="link" to="/Gallery">Gallery</Link>
           </nav>
@@ -21,6 +23,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/FAQ" element={<FAQ />} />
+          <Route path="/EarlyStim" element={<EarlyStim />} />
           <Route path="/Visit" element={<Visit />} />
           <Route path="/Gallery" element={<Gallery />} />
         </Routes>
