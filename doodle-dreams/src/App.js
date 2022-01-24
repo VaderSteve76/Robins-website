@@ -1,10 +1,11 @@
-import React from "react";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import FAQ from './Components/FAQ/Faq';
 import Gallery from './Components/Gallery/Gallery';
 import Visit from './Components/Visit/Visit';
 import EarlyStim from './Components/EarlyStim/EarlyStim';
+import Products from './Components/Products/Product';
 import './styles.css';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
             <Link className="link" to="/FAQ">FAQ</Link>
             <Link className="link" to="/EarlyStim">Early Stimulation</Link>
             <Link className="link" to="/Visit">Before You Visit</Link>
+            <Link className="link" to="/Products">Products</Link>
             <Link className="link" to="/Gallery">Gallery</Link>
           </nav>
         </div>
@@ -25,6 +27,7 @@ function App() {
           <Route path="/FAQ" element={<FAQ />} />
           <Route path="/EarlyStim" element={<EarlyStim />} />
           <Route path="/Visit" element={<Visit />} />
+          <Route path="/Products" element={<Products />} />
           <Route path="/Gallery" element={<Gallery />} />
         </Routes>
       </Router>
