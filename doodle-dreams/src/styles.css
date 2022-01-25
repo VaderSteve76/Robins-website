@@ -101,6 +101,7 @@
 .card-image {
   height: 325px;
   width: 250px;
+  object-fit: contain;
 }
 
 .card-container {
@@ -110,5 +111,9 @@
 }
 
 .card-text {
+  text-align: center;
+}
+
+.prod-header {
   text-align: center;
 }
