@@ -6,6 +6,7 @@ import Gallery from './Components/Gallery/Gallery';
 import Visit from './Components/Visit/Visit';
 import EarlyStim from './Components/EarlyStim/EarlyStim';
 import Product from './Components/Products/Product';
+import Pdf from './Components/Pdf/Pdf';
 import './styles.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
             <Link className="link" to="/Visit">Before You Visit</Link>
             <Link className="link" to="/Product">Products</Link>
             <Link className="link" to="/Gallery">Gallery</Link>
+            <Link className="link" to="/Pdf">Contract</Link>
           </nav>
         </div>
         <Routes>
@@ -29,6 +31,7 @@ function App() {
           <Route path="/Visit" element={<Visit />} />
           <Route path="/Product" element={<Product />} />
           <Route path="/Gallery" element={<Gallery />} />
+          <Route path="/Pdf" element={<Pdf />} />
         </Routes>
       </Router>
     </div>
