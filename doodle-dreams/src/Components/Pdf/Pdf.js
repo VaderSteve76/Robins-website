@@ -8,7 +8,7 @@ export default function App() {
   return (
     <div className="App">
       <div style={{ overflow: "scroll", width: "100%" }}>
-        <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.5.207/build/pdf.worker.min.js">
+        <Worker workerUrl="https://unpkg.com/pdfjs-dist@2.12.313/build/pdf.worker.min.js">
           <PDFViewer fileUrl={pdf} />
         </Worker>
       </div>
