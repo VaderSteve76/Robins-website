@@ -28,3 +28,8 @@ export const SwipeDiv = styled.div`
   margin-right: auto;
   margin-top: 45px;
 `;
+
+export const Social = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+`;

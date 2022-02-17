@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faYoutube, faInstagram, faFacebook, faTiktok } from '@fortawesome/free-brands-svg-icons';
 import "swiper/css";
 import "swiper/css/navigation";
 import SwiperCore, { Navigation } from 'swiper';
@@ -19,6 +21,20 @@ export default class HomePage extends Component {
               <h1>Robin Crubaugh</h1>
               <h3>59 Deerwood Trail Road Blairsville,GA 30512</h3>
               <h3>1(706)994-1678</h3>
+              <S.Social>
+                <a href="https://www.youtube.com/channel/UC2IFmCWYVaSXh0tubSt2w-g" className="youtube" target="_blank">
+                  <FontAwesomeIcon icon={faYoutube} size="3x" />
+                </a>
+                <a href="https://www.facebook.com/profile.php?id=100076029266565" className="facebook" target="_blank">
+                  <FontAwesomeIcon icon={faFacebook} size="3x" />
+                </a>
+                <a href="https://www.instagram.com/robincrubaugh/" className="instagram" target="_blank">
+                  <FontAwesomeIcon icon={faInstagram} size="3x" />
+                </a>
+                <a href="https://www.tiktok.com/@bigdoodledreams" className="tiktok" target="_blank">
+                  <FontAwesomeIcon icon={faTiktok} size="3x" />
+                </a>
+              </S.Social>
             </div>
           </div>
         </div>

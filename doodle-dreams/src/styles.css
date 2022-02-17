@@ -118,3 +118,35 @@
 .prod-header {
   text-align: center;
 }
+
+.youtube {
+  color: red;
+}
+
+.youtube:hover {
+  transform: scale(1.2);
+}
+
+.facebook {
+  color: dodgerblue;
+}
+
+.facebook:hover {
+  transform: scale(1.2);
+}
+
+.instagram {
+  color: #8d0390;
+}
+
+.instagram:hover {
+  transform: scale(1.2);
+}
+
+.tiktok {
+  color: black;
+}
+
+.tiktok:hover {
+  transform: scale(1.2);
+}
