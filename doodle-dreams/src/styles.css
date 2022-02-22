@@ -120,7 +120,7 @@
 }
 
 .youtube {
-  color: red;
+  color: #ff0000;
 }
 
 .youtube:hover {
@@ -128,7 +128,7 @@
 }
 
 .facebook {
-  color: dodgerblue;
+  color: #1e90ff;
 }
 
 .facebook:hover {
@@ -144,7 +144,7 @@
 }
 
 .tiktok {
-  color: black;
+  color: #000000;
 }
 
 .tiktok:hover {
